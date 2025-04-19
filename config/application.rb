@@ -6,6 +6,7 @@ require "rails/all"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+require 'devise/orm/active_record'
 module BookingSystem
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
